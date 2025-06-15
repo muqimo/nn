@@ -93,7 +93,7 @@ class GaussianMixtureModel:
         tol: float, 收敛阈值 (默认=1e-6)
         random_state: int, 随机种子 (可选)
     """
-    def __init__(self, n_components=3, max_iter=100, tol=1e-6,random_state=None):
+    def __init__(self, n_components = 3, max_iter = 100, tol = 1e-6,random_state = None):
         
         # 初始化模型参数
         self.n_components = n_components  # 高斯分布数量
